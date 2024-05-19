@@ -9,7 +9,7 @@ This repository is dedicated to scripts and tools designed to automate repetitiv
 ## Structure
 - **Scripts**: Contains individual scripts for specific automation tasks.
 - **Tools**: Includes comprehensive tools and applications built for automation.
-- **Documentation**: Provides detailed documentation on how to use and contribute to the repository.
+- **Documentation**: Provides detailed tocumentation on how to use and contribute to the repository.
 - **Examples**: Showcases examples of automation in action.
 
 ## Getting Started
@@ -26,3 +26,44 @@ If you'd like to contribute to this repository, please follow these steps:
 This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
 Happy automating!
+
+## rename_files.py Usage
+
+### Purpose
+This script renames all files in a specified directory by adding a prefix.
+
+### Usage
+1. **Run the Script**:
+   ```bash
+   python rename_files.py
+   ```
+2. **Follow the Prompts**:
+   - Enter the directory path: `test_directory`
+   - Enter the prefix to add: `test_`
+
+### Example
+#### Before Running the Script
+```
+test_directory/
+  file1.txt
+  file2.txt
+  file3.txt
+```
+
+#### After Running the Script
+```
+test_directory/
+  test_file1.txt
+  test_file2.txt
+  test_file3.txt
+```
+
+### Common Errors and Solutions
+- **Error**: Directory not found.
+  - **Solution**: Ensure the directory path is correct.
+- **Error**: Permission denied.
+  - **Solution**: Ensure you have the necessary permissions to rename files in the directory.
+
+### Edge Cases
+- Files that already start with the prefix will not be renamed again.
+- Empty directories will not cause any issues.
