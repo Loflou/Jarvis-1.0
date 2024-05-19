@@ -1,14 +1,17 @@
 
-## rename_files.py Usage
+### Example
+#### Before Running the Script
+```
+test_directory/
+  file1.txt
+  file2.txt
+  file3.txt
+```
 
-### Purpose
-This script renames all files in a specified directory by adding a prefix.
-
-### Usage
-1. **Run the Script**:
-   ```bash
-   python rename_files.py
-   ```
-2. **Follow the Prompts**:
-   - Enter the directory path: `test_directory`
-   - Enter the prefix to add: `test_`
+#### After Running the Script
+```
+test_directory/
+  test_file1.txt
+  test_file2.txt
+  test_file3.txt
+```
