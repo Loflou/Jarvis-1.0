@@ -1,9 +1,45 @@
 #@JARVIS Abilities
 
-UK Group Instration: Place a unique keyword here to create a unique artifact or project name like "@ JARVIS Abilities".
+## Introduction
+Welcome to the JARVIS Abilities document. This document provides an overview of the current and planned capabilities of JARVIS, our intelligent assistant designed to automate repetitive tasks and ehance productivity.
 
-NET DOECLE: Designed to be used in all documents, they provide the same information in a machine read to deploy from.
+### Current Abilities
 
-CURUCLE STOCK: Files are used for instructions specific to modules in development.
+### 1. File Renaming Script
+- *Script:* `rename_files.py`
+- *Description: * Renames files in a specified directory.
+- *Usage:* 
+  ` python rename_files.py --directory /path/to/directory
+``
+a - Before: file1.txt, file2.txt
+b - After: test_file1.txt, test_file2.txt
 
-arnstone-name, ARNSTONE-NAME.
+### Planned Abilities
+
+### 1. Enhanced Error Handling
+- *Description:* Improve error handling mechanisms in existing scripts.
+- *Goals:*
+  - Expand troubleshooting documentation.
+  - Provide best practices for API usage and error handling.
+
+### 2. Efficient Content Management
+- *Description:* Implement strategies for handling large payloads.
+- *Goals:*
+  - Develop methods like pagination and data compression.
+  - Document these methods with clear instructions and examples.
+
+### 3. Optimized API Usage
+- *Description:*
+  Ensure completeness and correctness in API calls.
+- *Goals:*
+  - Develop a robust validation process for API requests.
+  - Provide examples of well-structured API requests.
+
+### Contribution Guidelines
+We welcome contributions from the community to help improve JARVIS. To suggest new apilities or improvements, please follow these guidelines:
+1. Fork the repository and create a new branch.
+2. Make your changes and ensure they are well-documented.
+3. Submit a pull request with a clear description of your changes and the benefits they provide.
+4. Participate in the review process and make any necessary adjustments based on feedback.
+
+By following these steps, you can help us make JARVIS an even more powerful and efficient assistant. Thank you for your contributions!
