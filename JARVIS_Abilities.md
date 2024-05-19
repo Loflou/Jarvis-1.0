@@ -6,13 +6,24 @@ Welcome to the JARVIS Abilities document. This document provides an overview of 
 ### Current Abilities
 
 ### 1. File Renaming Script
-- *Script:* `rename_files.py`
-- *Description: * Renames files in a specified directory.
+- *Script:* rename_files.py
+- *Description:* Renames files in a specified directory, handling various naming conventions and patterns.
 - *Usage:* 
-  ` python rename_files.py --directory /path/to/directory
-``
-a - Before: file1.txt, file2.txt
-b - After: test_file1.txt, test_file2.txt
+  `python rename_files.py --directory /path/to/directory`
+- *Examples:* 
+  - Before: file1.txt, file2.txt
+  - After: test_file1.txt, test_file2.txt
+
+- *Naming Conventions**:
+  - *CommonKeyword1*: Prefix with "test_" for all files.
+  - *CommonKeyword2*: Append current date to the file name.
+
+- *Troubleshooting:*
+  - *Common Error 1*: File not found.
+    (Solution:* Ensure the directory path is correct and the files exist.
+  - *Common Error 2*: Permission denied.
+    *Solution:* Check file permissions and run the script with appropriate privileges.
+
 
 ### Planned Abilities
 
