@@ -1,3 +1,6 @@
 
-## Purpose
-This repository is dedicated to scripts and tools designed to automate repetitive tasks and enhance productivity. It serves as a central hub for various automation projects aimed at streamlining workflows and saving time.
+## Structure
+- **Scripts**: Contains individual scripts for specific automation tasks.
+- **Tools**: Includes comprehensive tools and applications built for automation.
+- **Documentation**: Provides detailed documentation on how to use and contribute to the repository.
+- **Examples**: Showcases examples of automation in action.
